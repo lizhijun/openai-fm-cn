@@ -180,7 +180,7 @@ export default function PlayButton() {
         <Play />
       )}
       <span className="uppercase hidden md:inline pr-3">
-        {isPlaying ? "Stop" : audioLoading ? "Busy" : "Play"}
+        {isPlaying ? "停止" : audioLoading ? "处理中" : "播放"}
       </span>
     </Button>
   );

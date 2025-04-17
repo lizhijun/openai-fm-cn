@@ -39,7 +39,7 @@ const DocsLink = () => {
     >
       <Docs />
 
-      <span className="uppercase hidden md:inline pr-3">Docs</span>
+      <span className="uppercase hidden md:inline pr-3">文档</span>
     </Button>
   );
 };

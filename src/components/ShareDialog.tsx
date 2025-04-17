@@ -17,10 +17,10 @@ const DialogDemo = ({
       <Dialog.Overlay className="fixed inset-0 bg-black/30 data-[state=open]:animate-overlayShow" />
       <Dialog.Content className="fixed bg-white left-1/2 top-1/2 max-h-[85vh] w-[90vw] max-w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-md bg-gray1 p-[25px] shadow-[var(--shadow-6)] focus:outline-none data-[state=open]:animate-contentShow">
         <Dialog.Title className="m-0 text-[17px] font-medium text-mauve12">
-          Share Link
+          分享链接
         </Dialog.Title>
         <Dialog.Description className="mb-5 mt-2.5 text-[15px] leading-normal text-mauve11">
-          Copy the link below to share with others.
+          复制下面的链接与他人分享。
         </Dialog.Description>
         <fieldset className="mb-[15px] flex items-center gap-5">
           <input
@@ -39,7 +39,7 @@ const DialogDemo = ({
                 }
               }}
             >
-              Copy
+              复制
             </button>
           </Dialog.Close>
         </div>

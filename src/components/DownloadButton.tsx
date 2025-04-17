@@ -142,7 +142,7 @@ export default function DownloadButton() {
       ) : (
         <Download />
       )}{" "}
-      <span className="uppercase hidden md:inline pr-3">Download</span>
+      <span className="uppercase hidden md:inline pr-3">下载</span>
     </Button>
   );
 }

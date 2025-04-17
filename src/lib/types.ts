@@ -3,4 +3,5 @@ export interface LibraryEntry {
   input: string;
   prompt: string;
   voice: string;
+  name1: string;
 }

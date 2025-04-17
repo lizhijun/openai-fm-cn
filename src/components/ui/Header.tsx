@@ -35,8 +35,8 @@ export const Header = ({ devMode, setDevMode }: HeaderProps) => {
         <div className="col-span-12 md:col-span-7 xl:col-span-6 order-3 md:order-2">
           <div className="text-balance">
             <div className="text-current/70 mb-3">
-              An interactive demo for developers to try the new text-to-speech
-              model in the OpenAI API.{" "}
+              一个供开发者体验 OpenAI API 中
+              全新文本转语音模型的交互式演示。{" "}
             </div>
             <a
               className="uppercase hover:text-current/70 transition-colors inline-block"
@@ -44,7 +44,7 @@ export const Header = ({ devMode, setDevMode }: HeaderProps) => {
               target="_blank"
             >
               <span className="flex items-center gap-x-1">
-                Start building
+                开始构建
                 <External className="h-[.93rem] w-[.93rem]" />
               </span>
             </a>

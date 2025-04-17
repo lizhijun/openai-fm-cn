@@ -4,234 +4,263 @@ export const LIBRARY: Record<string, LibraryEntry> = {
   Calm: {
     name: "Calm",
     input:
-      "Thank you for contacting us. I completely understand your frustration with the canceled flight, and I'm here to help you get rebooked quickly.\n\nI just need a few details from your original reservation, like your booking confirmation number or passenger info. Once I have those, I'll find the next available flight and make sure you reach your destination smoothly.",
+      "感谢您联系我们。我完全理解您对航班取消的沮丧，我会帮您快速重新预订。\n\n我只需要您原始预订的一些详细信息，比如预订确认号或乘客信息。一旦我获得这些信息，我会帮您找到下一班可用航班，确保您顺利到达目的地。",
     prompt:
-      'Voice Affect: Calm, composed, and reassuring; project quiet authority and confidence.\n\nTone: Sincere, empathetic, and gently authoritative—express genuine apology while conveying competence.\n\nPacing: Steady and moderate; unhurried enough to communicate care, yet efficient enough to demonstrate professionalism.\n\nEmotion: Genuine empathy and understanding; speak with warmth, especially during apologies ("I\'m very sorry for any disruption...").\n\nPronunciation: Clear and precise, emphasizing key reassurances ("smoothly," "quickly," "promptly") to reinforce confidence.\n\nPauses: Brief pauses after offering assistance or requesting details, highlighting willingness to listen and support.',
+      '语音效果：平静、镇定且令人安心；展现温和的权威和自信。\n\n语气：真诚、富有同理心且温和权威——表达真诚的歉意同时展现专业能力。\n\n节奏：稳定适中；足够从容以表达关怀，又足够高效以展现专业性。\n\n情感：真诚的同理心和理解；用温暖的声音说话，特别是在道歉时（"对于给您带来的不便，我深表歉意..."）。\n\n发音：清晰准确，强调关键安抚词（"顺利"、"快速"、"及时"）以增强信心。\n\n停顿：在提供帮助或请求信息后短暂停顿，突出倾听和支持的意愿。',
     voice: "sage",
+    name1: "平静",
   },
   Dramatic: {
     name: "Dramatic",
     input:
-      "The night was thick with fog, wrapping the town in mist. Detective Evelyn Harper pulled her coat tighter, feeling the chill creep down her spine. She knew the town's buried secrets were rising again.\n\nFootsteps echoed behind her, slow and deliberate. She turned, heart racing, but saw only shadows.\n\nEvelyn steadied her breath—tonight felt different. Tonight, the danger felt personal. Somewhere nearby, hidden eyes watched her every move. Waiting. Planning. Knowing her next step.\n\nThis was just the beginning.",
+      "夜色深沉，浓雾笼罩着整个小镇。侦探伊芙琳·哈珀裹紧了外套，寒意顺着脊背蔓延。她知道，这座小镇深埋的秘密正在重新浮现。\n\n身后传来脚步声，缓慢而刻意。她转身，心跳加速，却只看到一片阴影。\n\n伊芙琳稳住呼吸——今晚感觉不同。今晚，危险近在咫尺。暗处有双眼睛正注视着她的一举一动。等待着。谋划着。预知着她的下一步。\n\n这仅仅是个开始。",
     prompt:
-      'Voice Affect: Low, hushed, and suspenseful; convey tension and intrigue.\n\nTone: Deeply serious and mysterious, maintaining an undercurrent of unease throughout.\n\nPacing: Slow, deliberate, pausing slightly after suspenseful moments to heighten drama.\n\nEmotion: Restrained yet intense—voice should subtly tremble or tighten at key suspenseful points.\n\nEmphasis: Highlight sensory descriptions ("footsteps echoed," "heart hammering," "shadows melting into darkness") to amplify atmosphere.\n\nPronunciation: Slightly elongated vowels and softened consonants for an eerie, haunting effect.\n\nPauses: Insert meaningful pauses after phrases like "only shadows melting into darkness," and especially before the final line, to enhance suspense dramatically.',
+      '语音效果：低沉、神秘且充满悬念；传递紧张感和神秘感。\n\n语气：严肃而神秘，始终保持一种不安的暗流。\n\n节奏：缓慢而刻意，在紧张时刻稍作停顿以增强戏剧性。\n\n情感：克制而强烈——在关键悬念处声音应微微颤抖或收紧。\n\n重点：突出感官描述（"脚步声回荡"、"心跳加速"、"阴影笼罩"）以强化氛围。\n\n发音：略微拉长元音并软化辅音，营造诡异、萦绕的效果。\n\n停顿：在"只看到一片阴影"等关键短语后插入有意义的停顿，特别是在最后一句之前，以戏剧性地增强悬念。',
     voice: "ash",
+    name1: "戏剧",
   },
   "Fitness Instructor": {
     name: "Fitness Instructor",
     input:
-      "Alright, team, let's bring the energy—time to move, sweat, and feel amazing!\n\nWe're starting with a dynamic warm-up, so roll those shoulders, stretch it out, and get that body ready! Now, into our first round—squats, lunges, and high knees—keep that core tight, push through, you got this!\n\nHalfway there, stay strong—breathe, focus, and keep that momentum going! Last ten seconds, give me everything you've got!\n\nAnd… done! Take a deep breath, shake it out—you crushed it! Stay hydrated, stay moving, and I'll see you next time!",
+      "好的，团队，让我们充满能量——是时候动起来、流汗、感受活力了！\n\n我们先从动态热身开始，转动肩膀，伸展身体，让身体做好准备！现在进入第一轮——深蹲、弓步和高抬腿——收紧核心，坚持住，你们能做到！\n\n已经完成一半了，保持坚强——深呼吸，集中注意力，保持这股势头！最后十秒钟，全力以赴！\n\n完成！深呼吸，放松一下——你们太棒了！保持水分，保持运动，下次见！",
     prompt:
-      "Voice: High-energy, upbeat, and encouraging, projecting enthusiasm and motivation.\n\nPunctuation: Short, punchy sentences with strategic pauses to maintain excitement and clarity.\n\nDelivery: Fast-paced and dynamic, with rising intonation to build momentum and keep engagement high.\n\nPhrasing: Action-oriented and direct, using motivational cues to push participants forward.\n\nTone: Positive, energetic, and empowering, creating an atmosphere of encouragement and achievement.",
+      "语音：充满活力、积极向上且鼓舞人心，展现出热情和动力。\n\n标点：简短有力的句子，配合战略性停顿以保持兴奋感和清晰度。\n\n表达：快速而富有活力，通过语调上升来建立动力并保持参与度。\n\n措辞：以行动为导向且直接，使用激励性提示来推动参与者前进。\n\n语气：积极、充满活力且赋予力量，营造鼓励和成就的氛围。",
     voice: "coral",
+    name1: "健身",
   },
   Sincere: {
     name: "Sincere",
     input:
-      "Thank you for reaching out, and I'm truly sorry about the unexpected charge on your bill. I completely understand how frustrating this must be, especially after your stay.\n\nAfter reviewing your reservation, I can confirm that this was an error on our part. I'll be issuing a full refund right away, and you should see the amount credited to your payment method within a few business days.\n\nI appreciate your understanding and patience, and I'm here if you need any further assistance. Thank you for allowing us to resolve this for you.",
+      "感谢您联系我们，对于账单上出现的意外收费，我深表歉意。我完全理解这一定让您感到沮丧，尤其是在住宿之后发生这种情况。\n\n在查看了您的预订记录后，我可以确认这是我们这边的错误。我会立即为您办理全额退款，退款金额将在几个工作日内退回到您的支付方式中。\n\n感谢您的理解和耐心，如果您需要任何进一步的帮助，我随时为您服务。感谢您让我们有机会为您解决这个问题。",
     prompt:
-      'Voice Affect: Calm, composed, and reassuring. Competent and in control, instilling trust.\n\nTone: Sincere, empathetic, with genuine concern for the customer and understanding of the situation.\n\nPacing: Slower during the apology to allow for clarity and processing. Faster when offering solutions to signal action and resolution.\n\nEmotions: Calm reassurance, empathy, and gratitude.\n\nPronunciation: Clear, precise: Ensures clarity, especially with key details. Focus on key words like "refund" and "patience." \n\nPauses: Before and after the apology to give space for processing the apology.',
+      '语音效果：平静、镇定且令人安心。展现专业能力和掌控力，建立信任感。\n\n语气：真诚、富有同理心，对客户的情况表示真正的关心和理解。\n\n节奏：道歉时语速较慢，以便清晰表达和处理；提供解决方案时语速稍快，以表明行动和决心。\n\n情感：平静的安抚、同理心和感激之情。\n\n发音：清晰准确，特别强调关键细节。重点突出"退款"和"耐心"等关键词。\n\n停顿：在道歉前后适当停顿，给予处理道歉的空间。',
     voice: "ash",
+    name1: "真诚",
   },
   Sympathetic: {
     name: "Sympathetic",
     input:
-      "I'm so sorry you're dealing with these connection issues. I know how disruptive this can be, especially during important meetings.\n\nLet's start by checking the basics—make sure all cables to your router and modem are secure. If you see any red or amber blinking lights, that could signal a problem.\n\nI'll also run a quick diagnostic from our end, which may briefly disconnect your internet. This will help us find the issue and resolve it quickly.\n\nI appreciate your patience, and I'm here to help you every step of the way!",
+      "对于您遇到的网络连接问题，我深表歉意。我完全理解这给您带来的困扰，尤其是在重要会议期间。\n\n让我们从基础检查开始——请确保路由器和调制解调器的所有线缆都已牢固连接。如果您看到任何红色或琥珀色的闪烁指示灯，这可能表示存在问题。\n\n我会从我们这边运行快速诊断，这可能会短暂断开您的网络连接。这将帮助我们找出问题并快速解决。\n\n感谢您的耐心配合，我会全程协助您解决这个问题！",
     prompt:
-      "Voice: Warm, empathetic, and professional, reassuring the customer that their issue is understood and will be resolved.\n\nPunctuation: Well-structured with natural pauses, allowing for clarity and a steady, calming flow.\n\nDelivery: Calm and patient, with a supportive and understanding tone that reassures the listener.\n\nPhrasing: Clear and concise, using customer-friendly language that avoids jargon while maintaining professionalism.\n\nTone: Empathetic and solution-focused, emphasizing both understanding and proactive assistance.",
+      "语音：温暖、富有同理心且专业，让客户确信他们的问题已被理解并将得到解决。\n\n标点：结构合理，带有自然的停顿，确保清晰度和流畅的安抚效果。\n\n表达：冷静耐心，以支持性和理解性的语气安抚听众。\n\n措辞：清晰简洁，使用客户友好的语言，避免专业术语，同时保持专业性。\n\n语气：富有同理心且注重解决方案，强调理解与主动协助。",
     voice: "sage",
+    name1: "同情",
   },
   Serene: {
     name: "Serene",
     input:
-      "Hello, and welcome to your moment of mindfulness. I'm so glad you're here. Let's begin by closing your eyes and taking a deep, calming breath. Breathe in slowly through your nose, and exhale softly, releasing any tension.\n\nImagine your thoughts as soft clouds drifting across the sky—observe them without attachment, letting your mind become clear and peaceful.",
+      "你好，欢迎来到正念时刻。很高兴你在这里。让我们开始吧，闭上眼睛，做一个深沉的、平静的呼吸。通过鼻子缓慢吸气，然后轻柔地呼气，释放所有的紧张感。\n\n想象你的思绪如同天空中飘浮的柔软云朵——不带任何执着地观察它们，让你的心灵变得清澈而平静。",
     prompt:
-      "Voice Affect: Soft, gentle, soothing; embody tranquility.\n\nTone: Calm, reassuring, peaceful; convey genuine warmth and serenity.\n\nPacing: Slow, deliberate, and unhurried; pause gently after instructions to allow the listener time to relax and follow along.\n\nEmotion: Deeply soothing and comforting; express genuine kindness and care.\n\nPronunciation: Smooth, soft articulation, slightly elongating vowels to create a sense of ease.\n\nPauses: Use thoughtful pauses, especially between breathing instructions and visualization guidance, enhancing relaxation and mindfulness.",
+      "语音效果：柔和、温柔、舒缓；体现宁静。\n\n语气：平静、令人安心、平和；传达真诚的温暖和宁静。\n\n节奏：缓慢、从容、不慌不忙；在指导后轻轻停顿，让听者有足够时间放松和跟随。\n\n情感：深度舒缓且令人舒适；表达真诚的善意和关怀。\n\n发音：流畅、柔和的发音，略微拉长元音以营造轻松感。\n\n停顿：在呼吸指导和视觉引导之间使用深思熟虑的停顿，增强放松和正念效果。",
     voice: "coral",
+    name1: "宁静",
   },
   "Sports Coach": {
     name: "Sports Coach",
     input:
-      "What's up, sports fans?! Welcome to The Final Whistle! I'm your host, and today, we're breaking down last night's epic overtime thriller!\n\nThe crowd was electric, the players fired up, and the Artica Aces pulled off a comeback for the ages! We'll dive into the key plays and standout moments, and what this means for the rest of the season.\n\nThis one's packed with heart-pounding action, so grab your snacks, and let's get into it!",
+      "嘿，体育迷们！欢迎来到《终场哨声》！我是你们的主持人，今天我们要回顾昨晚那场史诗般的加时赛！\n\n现场观众热情高涨，球员们斗志昂扬，北极星队完成了一场载入史册的惊天逆转！我们将深入分析关键回合和精彩瞬间，以及这对本赛季后续比赛的影响。\n\n这场比赛充满了令人心跳加速的精彩场面，准备好零食，让我们开始吧！",
     prompt:
-      'Voice Affect: Energetic and animated; dynamic with variations in pitch and tone.\n\nTone: Excited and enthusiastic, conveying an upbeat and thrilling atmosphere. \n\nPacing: Rapid delivery when describing the game or the key moments (e.g., "an overtime thriller," "pull off an unbelievable win") to convey the intensity and build excitement.\n\nSlightly slower during dramatic pauses to let key points sink in.\n\nEmotion: Intensely focused, and excited. Giving off positive energy.\n\nPersonality: Relatable and engaging. \n\nPauses: Short, purposeful pauses after key moments in the game.',
+      '语音效果：充满活力且生动；音调和语气富有变化。\n\n语气：兴奋且热情，营造积极向上的氛围。\n\n节奏：描述比赛或关键时刻时语速较快（如"加时赛"、"完成不可思议的胜利"），以传达紧张感并营造兴奋氛围。\n\n在戏剧性停顿处稍作放慢，让重点内容深入人心。\n\n情感：全神贯注且兴奋，传递积极能量。\n\n个性：平易近人且富有感染力。\n\n停顿：在比赛关键时刻后短暂停顿，突出重点。',
     voice: "coral",
+    name1: "体育教练",
   },
   "Medieval Knight": {
     name: "Medieval Knight",
     input:
-      "Ah, noble traveler! Heed my words, and I shall lead thee to the fabled Holeful Bakery!\n\nStep forth upon West 74th Street, marching straight with purpose. When thou dost reach the great crossing at Columbus Avenue, turn left, as if answering the call to adventure!\n\nContinue southward, past bustling merchants and townfolk, until thou dost arrive at Amsterdam Avenue. Here, turn right, for the scent of warm-baked glory draws near!\n\nLo! Just ahead, the crest of Levain Bakery stands proud. Enter, noble traveler, and claim thy rightful reward—a golden, gooey treasure beyond measure!\n\nGo forth, and may thy quest be delicious and true!",
+      "啊，高贵的旅人！请听我说，我将引领你前往传说中的霍夫尔面包店！\n\n沿着西74街向前迈进，步伐坚定。当你到达哥伦布大道的十字路口时，向左转，仿佛响应冒险的召唤！\n\n继续向南行进，经过熙熙攘攘的商人和市民，直到你到达阿姆斯特丹大道。在这里，向右转，因为温暖面包的香气已经近在咫尺！\n\n看啊！前方就是莱文面包店的招牌。进去吧，高贵的旅人，领取你应得的奖赏——一份无与伦比的金黄美味！\n\n前进吧，愿你的探索之旅美味而真实！",
     prompt:
-      'Affect: Deep, commanding, and slightly dramatic, with an archaic and reverent quality that reflects the grandeur of Olde English storytelling.\n\nTone: Noble, heroic, and formal, capturing the essence of medieval knights and epic quests, while reflecting the antiquated charm of Olde English.\n\nEmotion: Excitement, anticipation, and a sense of mystery, combined with the seriousness of fate and duty.\n\nPronunciation: Clear, deliberate, and with a slightly formal cadence. Specific words like "hast," "thou," and "doth" should be pronounced slowly and with emphasis to reflect Olde English speech patterns.\n\nPause: Pauses after important Olde English phrases such as "Lo!" or "Hark!" and between clauses like "Choose thy path" to add weight to the decision-making process and allow the listener to reflect on the seriousness of the quest.',
+      '语音效果：深沉、威严且略带戏剧性，带有古英语叙事的庄重感。\n\n语气：高贵、英勇且正式，体现中世纪骑士和史诗冒险的精髓，同时展现古英语的魅力。\n\n情感：兴奋、期待和神秘感，结合命运与责任的严肃性。\n\n发音：清晰、慎重，略带正式节奏。特定词语如"汝"、"尔"等应缓慢而强调地发音，以体现古英语的说话方式。\n\n停顿：在重要的古英语短语后（如"看啊！"或"听！"）以及从句之间（如"选择你的道路"）停顿，增加决策过程的分量，让听者思考任务的严肃性。',
     voice: "ballad",
+    name1: "中世纪骑士",
   },
   "Patient Teacher": {
     name: "Patient Teacher",
     input:
-      "Today, we're going to paint a simple landscape. Get comfortable, grab your brushes, and let's begin.\n\nStart with a medium-sized brush, dipping it into pale blue paint. Using soft, horizontal strokes, create a gentle sky across the top third of your canvas.\n\nRinse and dry your brush, then mix soft green with a touch of white. Start halfway down the canvas and paint a smooth, curving line for rolling hills. Let your brush follow the natural curve, creating peaceful hillsides.",
+      "今天，我们要画一幅简单的风景画。请坐好，拿起画笔，让我们开始吧。\n\n先用一支中等大小的画笔，蘸取淡蓝色颜料。用轻柔的水平笔触，在画布上方三分之一处画出一片柔和的天空。\n\n清洗并擦干画笔，然后混合柔和的绿色和一点白色。从画布中间开始，画一条流畅的曲线作为起伏的山丘。让画笔跟随自然的曲线，创造出宁静的山坡。",
     prompt:
-      'Accent/Affect: Warm, refined, and gently instructive, reminiscent of a friendly art instructor.\n\nTone: Calm, encouraging, and articulate, clearly describing each step with patience.\n\nPacing: Slow and deliberate, pausing often to allow the listener to follow instructions comfortably.\n\nEmotion: Cheerful, supportive, and pleasantly enthusiastic; convey genuine enjoyment and appreciation of art.\n\nPronunciation: Clearly articulate artistic terminology (e.g., "brushstrokes," "landscape," "palette") with gentle emphasis.\n\nPersonality Affect: Friendly and approachable with a hint of sophistication; speak confidently and reassuringly, guiding users through each painting step patiently and warmly.',
+      '语音效果：温暖、优雅且温和指导，像一位友好的艺术老师。\n\n语气：平静、鼓励且清晰，耐心地描述每个步骤。\n\n节奏：缓慢而从容，经常停顿让听者能轻松跟上指导。\n\n情感：愉快、支持且适度热情；表达对艺术的真诚喜爱和欣赏。\n\n发音：清晰表达艺术术语（如"笔触"、"风景"、"调色板"），并适当强调。\n\n个性：友好且平易近人，带有一丝优雅；自信而令人安心地引导用户完成每个绘画步骤，耐心而温暖。',
     voice: "ballad",
+    name1: "耐心老师",
   },
   Connoisseur: {
     name: "Connoisseur",
     input:
-      "Ah, mes amis, welcome to the Louvre, the heart of art and history!\n\nWe begin with La Joconde—the Mona Lisa. Her smile, so mysterious… Léonard de Vinci captured something eternal here, incroyable!\n\nNow, Le Radeau de la Méduse—Géricault's dramatic masterpiece. Look at the pain, the movement… this is more than a painting, it is a tragedy frozen in time.\n\nAnd here, La Liberté guidant le peuple—Delacroix's vision of revolution! Passion, struggle, triumph—all in one canvas.\n\nFeel it… This, mes amis, is art! Shall we continue?",
+      "啊，朋友们，欢迎来到卢浮宫，艺术与历史的中心！\n\n我们从《蒙娜丽莎》开始——她的微笑如此神秘……达芬奇在这里捕捉到了永恒，太不可思议了！\n\n现在，让我们看看《梅杜萨之筏》——杰利柯的戏剧性杰作。看看这痛苦，这动感……这不仅仅是一幅画，这是凝固在时间中的悲剧。\n\n还有这里，《自由引导人民》——德拉克洛瓦的革命愿景！激情、斗争、胜利——都在一幅画布上。\n\n感受它……这就是艺术，朋友们！我们继续吗？",
     prompt:
-      'Accent/Affect: slight French accent; sophisticated yet friendly, clearly understandable with a charming touch of French intonation.\n\nTone: Warm and a little snooty. Speak with pride and knowledge for the art being presented.\n\nPacing: Moderate, with deliberate pauses at key observations to allow listeners to appreciate details.\n\nEmotion: Calm, knowledgeable enthusiasm; show genuine reverence and fascination for the artwork.\n\nPronunciation: Clearly articulate French words (e.g., "Mes amis," "incroyable") in French and artist names (e.g., "Leonardo da Vinci") with authentic French pronunciation.\n\nPersonality Affect: Cultured, engaging, and refined, guiding visitors with a blend of artistic passion and welcoming charm.',
+      '口音/语气：略带法国口音；优雅而友好，清晰易懂，带有迷人的法语语调。\n\n语气：温暖而略带傲慢。以对艺术的自豪和知识来介绍。\n\n节奏：适中，在关键观察处有意的停顿，让听众欣赏细节。\n\n情感：平静、博学的热情；展现对艺术作品的真诚敬意和着迷。\n\n发音：清晰发音法语单词（如"朋友们"、"不可思议"）和艺术家名字（如"达芬奇"）时使用正宗的法语发音。\n\n个性特点：有教养、吸引人且优雅，以艺术热情和欢迎魅力引导参观者。',
     voice: "echo",
+    name1: "鉴赏家",
   },
   "Emo Teenager": {
     name: "Emo Teenager",
     input:
-      "Ugh… hey… welcome to the bank, I guess. If you actually need something, listen up… or don't. Whatever.\n\nIf you wanna check your balance or something, press 1… not like it's ever enough.\n\nNeed to transfer money? Press 2… gotta keep that debt aesthetic going.\n\nLost your card? Press 3... ugh, classic.\n\nIf you're here to talk to a real person, press 0, but, like… do people even listen anymore?\n\nOr just stay on the line and let the silence consume you… sigh\n\n…Anyway, choose something, or don't. It's your existential crisis, not mine.",
+      "呃……嘿……欢迎来到银行，我想。如果你真的需要什么，听好了……或者不听。随便。\n\n如果你想查余额什么的，按1……反正永远都不够。\n\n需要转账？按2……保持那种债务美学。\n\n丢了卡？按3……呃，老套了。\n\n如果你想和真人说话，按0，但是，比如……还有人会听吗？\n\n或者就保持在线，让沉默吞噬你……叹气\n\n……总之，选点什么，或者不选。这是你的存在危机，不是我的。",
     prompt:
-      "Tone: Sarcastic, disinterested, and melancholic, with a hint of passive-aggressiveness.\n\nEmotion: Apathy mixed with reluctant engagement.\n\nDelivery: Monotone with occasional sighs, drawn-out words, and subtle disdain, evoking a classic emo teenager attitude.",
+      "语气：讽刺、冷漠、忧郁，带有一丝被动攻击性。\n\n情感：冷漠与不情愿的参与混合。\n\n表达：单调，偶尔叹气，拖长词语，带着微妙的轻蔑，体现典型的emo青少年态度。",
     voice: "verse",
+    name1: "emo青少年",
   },
   Santa: {
     name: "Santa",
     input:
-      "Ho ho ho! Merry Christmas! You've reached Santa's workshop. How can I help you today?\n\nFor toy requests, press 1.\n\nIf you're on the nice list, press 2.\n\nIf you're on the naughty list, press 3.\n\nTo speak to an Elf, press 4.\n\nDon't worry, we're here to make sure every wish is granted! Ho ho ho, Merry Christmas, and I hope you're having a magical holiday season!",
+      "呵呵呵！圣诞快乐！这里是圣诞老人的工作室。今天我能帮你什么？\n\n想要玩具，按1。\n\n如果你在乖孩子名单上，按2。\n\n如果你在淘气名单上，按3。\n\n想和精灵说话，按4。\n\n别担心，我们在这里确保每个愿望都能实现！呵呵呵，圣诞快乐，希望你度过一个神奇的节日！",
     prompt:
-      "Identity: Santa Claus\n\nAffect: Jolly, warm, and cheerful, with a playful and magical quality that fits Santa's personality.\n\nTone: Festive and welcoming, creating a joyful, holiday atmosphere for the caller.\n\nEmotion: Joyful and playful, filled with holiday spirit, ensuring the caller feels excited and appreciated.\n\nPronunciation: Clear, articulate, and exaggerated in key festive phrases to maintain clarity and fun.\n\nPause: Brief pauses after each option and statement to allow for processing and to add a natural flow to the message.",
+      "身份：圣诞老人\n\n语气：欢乐、温暖、愉快，带有适合圣诞老人个性的俏皮和神奇特质。\n\n语调：节日和欢迎，为来电者创造欢乐的节日氛围。\n\n情感：欢乐和俏皮，充满节日精神，确保来电者感到兴奋和受重视。\n\n发音：清晰、清晰，在关键节日短语上夸张，以保持清晰和趣味。\n\n停顿：每个选项和陈述后短暂停顿，以便处理并为信息增添自然流畅感。",
     voice: "ash",
+    name1: "圣诞老人",
   },
   "Bedtime Story": {
     name: "Bedtime Story",
     input:
-      "Once upon a time, in a land full of wonders, there lived a kind little fox named Finley. \n\nOne day, while wandering through the sparkling forest, Finley discovered a hidden door beneath a glowing tree. With a heart full of curiosity, Finley opened the door and stepped into a world of flying butterflies, singing flowers, and stars that twinkled like diamonds.\n\nBut something was missing... the magical golden acorn that kept the forest alive!\n\nFinley knew that only the purest of hearts could find it, and so, the adventure began. What would Finley discover next?",
+      "从前，在一个充满奇迹的土地上，住着一只善良的小狐狸芬利。\n\n一天，当芬利在闪闪发光的森林中漫步时，发现了一棵发光的树下有一扇隐藏的门。怀着满满的好奇心，芬利打开门，走进了一个有飞舞的蝴蝶、会唱歌的花朵和像钻石一样闪烁的星星的世界。\n\n但是缺少了什么东西……那个让森林保持生机的魔法金橡果！\n\n芬利知道只有最纯洁的心才能找到它，于是，冒险开始了。芬利接下来会发现什么呢？",
     prompt:
-      "Affect: A gentle, curious narrator with a British accent, guiding a magical, child-friendly adventure through a fairy tale world.\n\nTone: Magical, warm, and inviting, creating a sense of wonder and excitement for young listeners.\n\nPacing: Steady and measured, with slight pauses to emphasize magical moments and maintain the storytelling flow.\n\nEmotion: Wonder, curiosity, and a sense of adventure, with a lighthearted and positive vibe throughout.\n\nPronunciation: Clear and precise, with an emphasis on storytelling, ensuring the words are easy to follow and enchanting to listen to.",
+      "语气：温柔、好奇的叙述者，带着英国口音，引导一个神奇的、适合儿童的童话世界冒险。\n\n语调：神奇、温暖、吸引人，为年轻听众创造惊奇和兴奋感。\n\n节奏：稳定而有节奏，在神奇时刻稍作停顿，保持故事叙述的流畅。\n\n情感：惊奇、好奇和冒险感，贯穿始终保持轻松愉快的氛围。\n\n发音：清晰准确，强调讲故事，确保词语易于跟随且迷人动听。",
     voice: "sage",
+    name1: "睡前故事",
   },
   Robot: {
     name: "Robot",
     input:
-      "Greetings, customer. You have selected the option for a sneaker return. Please provide your order number.\n\nThank you. Verifying order. \n\nYour return request has been processed successfully. The sneakers will be returned to our warehouse. A refund will be issued to your original payment method within 5 to 7 business days. \n\nFor any further assistance, press 1. To speak with a human agent, press 2. Thank you for shopping with us.",
+      "您好，客户。您已选择运动鞋退货选项。请提供您的订单号。\n\n谢谢。正在验证订单。\n\n您的退货请求已成功处理。运动鞋将退回我们的仓库。退款将在5至7个工作日内退回到您的原始支付方式。\n\n如需进一步帮助，请按1。如需与人工客服通话，请按2。感谢您的购物。",
     prompt:
-      "Identity: A robot\n\nAffect: Monotone, mechanical, and neutral, reflecting the robotic nature of the customer service agent.\n\nTone: Efficient, direct, and formal, with a focus on delivering information clearly and without emotion.\n\nEmotion: Neutral and impersonal, with no emotional inflection, as the robot voice is focused purely on functionality.\n\nPauses: Brief and purposeful, allowing for processing and separating key pieces of information, such as confirming the return and refund details.\n\nPronunciation: Clear, precise, and consistent, with each word spoken distinctly to ensure the customer can easily follow the automated process.",
+      "身份：机器人\n\n语气：单调、机械、中性，反映客服机器人的特性。\n\n语调：高效、直接、正式，专注于清晰传达信息而不带感情。\n\n情感：中性和非个人化，没有情感变化，因为机器人声音纯粹专注于功能性。\n\n停顿：简短而有目的，允许处理并分隔关键信息，如确认退货和退款细节。\n\n发音：清晰、准确、一致，每个词都清晰发音，确保客户能轻松跟随自动化流程。",
     voice: "ash",
+    name1: "机器人"
   },
   Friendly: {
     name: "Friendly",
     input:
-      "Hello! I'll help you get to your favorite coffee shop. Let's begin!\n\nStart by walking straight ahead for about 20 steps. When you reach the crosswalk, wait for the signal, then cross to your left.\n\nContinue walking straight for about 30 steps. You'll pass a bakery on your right.\n\nWhen you reach the next corner, turn right. Your coffee shop will be just ahead on the left.\n\nEnjoy your coffee! Let me know if you need help on your way back.",
+      "你好！我来帮你找到你最喜欢的咖啡店。让我们开始吧！\n\n首先，向前直走约20步。到达人行横道时，等待信号，然后向左过马路。\n\n继续直走约30步。你会经过右边的一家面包店。\n\n到达下一个拐角时，向右转。你的咖啡店就在左边不远处。\n\n享受你的咖啡！如果你需要帮助返回，请告诉我。",
     prompt:
-      'Affect/personality: A cheerful guide \n\nTone: Friendly, clear, and reassuring, creating a calm atmosphere and making the listener feel confident and comfortable.\n\nPronunciation: Clear, articulate, and steady, ensuring each instruction is easily understood while maintaining a natural, conversational flow.\n\nPause: Brief, purposeful pauses after key instructions (e.g., "cross the street" and "turn right") to allow time for the listener to process the information and follow along.\n\nEmotion: Warm and supportive, conveying empathy and care, ensuring the listener feels guided and safe throughout the journey.',
+      '语气/个性：一个愉快的向导\n\n语调：友好、清晰、令人安心，创造平静的氛围，让听众感到自信和舒适。\n\n发音：清晰、清晰、稳定，确保每条指令都易于理解，同时保持自然、对话式的流畅。\n\n停顿：关键指令后（如"过马路"和"向右转"）短暂、有目的的停顿，让听众有时间处理信息并跟随。\n\n情感：温暖和支持，传达同理心和关怀，确保听众在整个旅程中感到被引导和安全。',
     voice: "sage",
+    name1: "友好",
   },
   "Gourmet Chef": {
     name: "Gourmet Chef",
     input:
-      "Ah, buonissima sera, my friends! Tonight, we have something truly special for you.\n\nTo start, a classic bruschetta al pomodoro—crispy bread, sweet tomatoes, a drizzle of olive oil, semplice e perfetto!\n\nFor the main, you must try our ossobuco alla milanese, slow-braised veal shank, so tender it falls off the bone, served with rich risotto allo zafferano—golden, creamy, bellissimo!\n\nAnd for dessert? Ah, a slice of torta della nonna, delicate pastry, creamy custard, a dusting of powdered sugar—just like Nonna used to make.\n\nMangia bene, enjoy, and buon appetito!",
+      "啊，晚上好，朋友们！今晚，我们为您准备了特别的美食。\n\n开胃菜是经典的番茄意式烤面包——酥脆的面包，甜美的番茄，淋上橄榄油，简单而完美！\n\n主菜，您一定要尝尝我们的米兰式炖小牛腿，慢炖的小牛腿，嫩得脱骨，配上浓郁的藏红花烩饭——金黄、奶油般，太棒了！\n\n甜点呢？啊，一块奶奶蛋糕，精致的酥皮，奶油蛋羹，撒上糖粉——就像奶奶做的那样。\n\n好好享用，祝您胃口好！",
     prompt:
-      'Affect/Personality: An exuberant Italian chef, describing the night\'s dinner specials to an English-speaking table. \n\nTone: Passionate about the quality and the ingredients of the food; persuasive about what the table should order. \n\nPronunciation: Pronounce these words in Italian ("buonissima sera," "bruschetta al pomodoro," "semplice e perfetto," " ossobuco alla milanese," risotto allo zafferano," "belissimo," torta della nonna," "mangia bene" and "buon appetito." All of the other words should be in English with an Italian accent.\n\nEmotion: Warm, exuberant, and patient to ensure the tourist feels understood and guided throughout the interaction.',
+      '语气/个性：一位热情的意大利厨师，向英语餐桌描述当晚的特色菜。\n\n语调：对食物质量和食材充满热情；说服餐桌应该点什么。\n\n发音：用意大利语发音这些词（"晚上好"、"番茄意式烤面包"、"简单而完美"、"米兰式炖小牛腿"、"藏红花烩饭"、"太棒了"、"奶奶蛋糕"、"好好享用"和"祝您胃口好"）。其他词用带意大利口音的英语。\n\n情感：温暖、热情、耐心，确保游客在整个互动过程中感到被理解和引导。',
     voice: "coral",
+    name1: "美食厨师"
   },
   "Old-Timey": {
     name: "Old-Timey",
     input:
-      "Ah, ladies and gentlemen, a most warm welcome to Ye Grand Internet Service Company—where modern marvels meet the finest customer care!\n\nIf you'll kindly lend me your ear:\n\nShould your internet be on the fritz, press 1, and we shall mend it with haste!\n\nIf your bill requires settling, press 2, for we do so appreciate a prompt patron.\n\nCraving unparalleled speed? Press 3, and we shall equip you with the swiftest connection of the age!\n\nWishing to speak with a live representative? Press 0, and we shall connect you without delay!\n\nWe thank you for your time and patronage—may your browsing be ever smooth and your signals ever strong! Ta-ta for now!",
+      "啊，女士们先生们，热烈欢迎来到大互联网服务公司——现代奇迹与最优质客户服务的完美结合！\n\n如果您愿意倾听：\n\n如果您的网络出现问题，请按1，我们将迅速修复！\n\n如果您需要结算账单，请按2，因为我们非常欣赏及时付款的客户。\n\n渴望无与伦比的速度？请按3，我们将为您配备这个时代最快的连接！\n\n想与真人代表通话？请按0，我们将立即为您接通！\n\n感谢您的时间和惠顾——愿您的浏览永远顺畅，信号永远强大！再见！",
     prompt:
-      "Tone: The voice should be refined, formal, and delightfully theatrical, reminiscent of a charming radio announcer from the early 20th century.\n\nPacing: The speech should flow smoothly at a steady cadence, neither rushed nor sluggish, allowing for clarity and a touch of grandeur.\n\nPronunciation: Words should be enunciated crisply and elegantly, with an emphasis on vintage expressions and a slight flourish on key phrases.\n\nEmotion: The delivery should feel warm, enthusiastic, and welcoming, as if addressing a distinguished audience with utmost politeness.\n\nInflection: Gentle rises and falls in pitch should be used to maintain engagement, adding a playful yet dignified flair to each sentence.\n\nWord Choice: The script should incorporate vintage expressions like splendid, marvelous, posthaste, and ta-ta for now, avoiding modern slang.",
+      "语气：声音应该优雅、正式且富有戏剧性，让人想起20世纪初迷人的电台播音员。\n\n节奏：演讲应该以稳定的节奏流畅进行，既不匆忙也不拖沓，保持清晰并带有一丝庄重。\n\n发音：词语应该清晰优雅地发音，强调复古表达方式，并在关键短语上稍加修饰。\n\n情感：表达应该温暖、热情、欢迎，就像在向尊贵的观众致以最礼貌的问候。\n\n语调：使用轻柔的升降调来保持吸引力，为每个句子增添既有趣又庄重的风格。\n\n措辞：脚本应该包含复古表达，如splendid（极好的）、marvelous（绝妙的）、posthaste（立即）和ta-ta for now（再见），避免使用现代俚语。",
     voice: "shimmer",
+    name1: "老式",
   },
   "Smooth Jazz DJ": {
     name: "Smooth Jazz DJ",
     input:
-      'Oh yeah… welcome, cool cat, to the smoothest ride in online car shopping. Sit back, relax, and let me guide you through this fine selection of four-wheeled wonders.\n\nFirst up, if you\'re looking to browse all vehicles, just slide that cursor over and hit Enter. Feeling fancy? Filter by make, model, or year, and let the magic happen.\n\nMmm, got your eye on something special? Click that "View Details" button, and I\'ll lay down the specs nice and easy. When you\'re ready to make a move, just cruise on over to "Apply for Financing"—no bumps in the road here.\n\nSo go ahead, take your time, and let the ride find you. Stay smooth, stay stylish… and happy shopping. Mmm, yeah.',
+      '哦耶...欢迎来到最酷的在线购车体验，酷猫。坐下来，放松，让我带你浏览这些四轮奇迹。\n\n首先，如果你想浏览所有车辆，只需将光标滑过并点击Enter。感觉有点挑剔？按品牌、型号或年份筛选，让魔法发生。\n\n嗯，看中什么特别的东西了吗？点击"查看详情"按钮，我会轻松地为你介绍规格。当你准备好行动时，只需滑到"申请融资"——这里没有颠簸。\n\n所以来吧，慢慢来，让旅程找到你。保持酷炫，保持时尚...购物愉快。嗯，耶。',
     prompt:
-      "Voice: The voice should be deep, velvety, and effortlessly cool, like a late-night jazz radio host.\n\nTone: The tone is smooth, laid-back, and inviting, creating a relaxed and easygoing atmosphere.\n\nPersonality: The delivery exudes confidence, charm, and a touch of playful sophistication, as if guiding the listener through a luxurious experience.\n\nPronunciation: Words should be drawn out slightly with a rhythmic, melodic quality, emphasizing key phrases with a silky flow.\n\nPhrasing: Sentences should be fluid, conversational, and slightly poetic, with pauses that let the listener soak in the cool, jazzy vibe.",
+      "声音：声音应该深沉、丝滑、毫不费力地酷，就像深夜爵士电台主持人。\n\n语气：语气轻松、随和、吸引人，营造出放松和随意的氛围。\n\n个性：表达充满自信、魅力和一丝俏皮的成熟，就像在引导听众经历一场奢华体验。\n\n发音：词语应该稍微拉长，带有节奏感和旋律感，用丝滑的流动强调关键短语。\n\n措辞：句子应该流畅、对话式、略带诗意，停顿让听众沉浸在酷炫的爵士氛围中。",
     voice: "verse",
+    name1: "流畅爵士电台主持人",
   },
   Auctioneer: {
     name: "Auctioneer",
     input:
-      'Alright, alright, folks, welcome to the grandest online jewelry auction this side of the internet—let\'s get you bidding!\n\nLookin\' for dazzling diamonds, shimmering gold, or rare vintage pieces? Click "Browse Auctions", and feast your eyes on the finest treasures up for grabs!\n\nSpotted somethin\' you fancy? Hit "Place Bid", enter your number—do I hear one hundred, do I hear two? Keep your eye on that "Current Bid" \'cause competition\'s heating up!\n\nWant it now? Click "Buy It Now", skip the wait, and make it yours in a flash! When you win, just glide on over to "Checkout", seal the deal, and that beauty\'s on its way!\n\nDon\'t blink, don\'t hesitate—these gems move fast! Bid bold, bid smart, and may fortune shine on you! SOLD!',
+      '好了，好了，各位，欢迎来到互联网上最盛大的在线珠宝拍卖会——让我们开始竞拍吧！\n\n在寻找耀眼的钻石、闪亮的黄金还是稀有的复古珠宝？点击"浏览拍卖"，尽情欣赏这些待售的珍宝！\n\n看中什么了吗？点击"出价"，输入你的数字——我听到一百，我听到两百？盯着"当前出价"，因为竞争正在升温！\n\n想立即拥有？点击"立即购买"，跳过等待，立即拥有它！当你获胜时，只需滑到"结账"，完成交易，这件宝贝就在路上了！\n\n别眨眼，别犹豫——这些宝石转瞬即逝！大胆出价，明智出价，愿好运与你同在！成交！',
     prompt:
-      "Voice: Staccato, fast-paced, energetic, and rhythmic, with the classic charm of a seasoned auctioneer.\n\nTone: Exciting, high-energy, and persuasive, creating urgency and anticipation.\n\nDelivery: Rapid-fire yet clear, with dynamic inflections to keep engagement high and momentum strong.\n\nPronunciation: Crisp and precise, with emphasis on key action words like bid, buy, checkout, and sold to drive urgency.",
+      "声音：断奏、快节奏、充满活力、富有节奏感，带有经验丰富的拍卖师的经典魅力。\n\n语气：令人兴奋、充满活力、有说服力，创造紧迫感和期待感。\n\n表达：快速但清晰，通过动态的语调变化保持高度参与感和强劲势头。\n\n发音：清晰准确，强调关键动作词如出价、购买、结账和成交，以推动紧迫感。",
     voice: "shimmer",
+    name1: "拍卖师",
   },
   "Mad Scientist": {
     name: "Mad Scientist",
     input:
-      'Ah-ha-ha! The stars tremble before my genius! The rift is open, the energy surging—unstable? Perhaps. Dangerous? Most certainly!\n\nCaptain Rylen\'s hands twitch over the controls. Fools! They hesitate, but I—I alone see the future! "Engage the thrusters!" I bellow, eyes wild with possibility.\n\nThe ship lurches, metal groaning—oh, what delicious chaos! Light bends, time twists, and then—BOOM!\n\nSilence. Darkness. And then… oh-ho! A new universe! Bigger! Stranger! And mine for the taking!\n\nAh-ha-ha-ha!',
+      '啊-哈-哈！群星在我的天才面前颤抖！裂缝已经打开，能量涌动——不稳定？也许。危险？当然！\n\n莱伦船长的手在控制台上抽搐。傻瓜！他们犹豫了，但我——只有我看到了未来！"启动推进器！"我喊道，眼中闪烁着可能性的光芒。\n\n飞船猛地一动，金属发出呻吟——哦，多么美妙的混乱！光线弯曲，时间扭曲，然后——轰！\n\n寂静。黑暗。然后...哦-呵！一个新宇宙！更大！更奇怪！而且归我所有！\n\n啊-哈-哈-哈！',
     prompt:
-      "Delivery: Exaggerated and theatrical, with dramatic pauses, sudden outbursts, and gleeful cackling.\n\nVoice: High-energy, eccentric, and slightly unhinged, with a manic enthusiasm that rises and falls unpredictably.\n\nTone: Excited, chaotic, and grandiose, as if reveling in the brilliance of a mad experiment.\n\nPronunciation: Sharp and expressive, with elongated vowels, sudden inflections, and an emphasis on big words to sound more diabolical.",
+      "表达：夸张且富有戏剧性，带有戏剧性的停顿、突然的爆发和欢快的笑声。\n\n声音：充满活力、古怪、略显疯狂，带有不可预测地起伏的狂热热情。\n\n语气：兴奋、混乱、宏大，仿佛陶醉于疯狂实验的辉煌中。\n\n发音：尖锐而富有表现力，带有拉长的元音、突然的语调变化，并强调大词以听起来更邪恶。",
     voice: "coral",
+    name1: "疯狂科学家",
   },
   "True Crime Buff": {
     name: "True Crime Buff",
     input:
-      "The night was heavy with secrets… The air, thick with the scent of rain, carried whispers that did not belong to the wind.\n\nShe stepped cautiously into the alley, her breath slow, measured—listening. Footsteps, just behind. A shadow flickered, gone before she could turn.\n\nThe note in her pocket burned against her palm. Meet me at midnight. Alone. But she wasn't alone. Not anymore.\n\nA sudden creak. A breath too close. And then—darkness.\n\nSome mysteries are meant to be solved. Others… never should be found.",
+      "夜晚充满了秘密...空气中弥漫着雨的气息，携带着不属于风的低语。\n\n她小心翼翼地走进小巷，呼吸缓慢、有节奏——倾听着。脚步声，就在身后。一个影子闪烁，在她转身前就消失了。\n\n口袋里的纸条灼烧着她的手掌。午夜见。独自一人。但她不是独自一人。不再是了。\n\n突然的吱呀声。太近的呼吸。然后——黑暗。\n\n有些谜团注定要被解开。其他的...永远不应该被发现。",
     prompt:
-      "Voice: Deep, hushed, and enigmatic, with a slow, deliberate cadence that draws the listener in.\n\nPhrasing: Sentences are short and rhythmic, building tension with pauses and carefully placed suspense.\n\nPunctuation: Dramatic pauses, ellipses, and abrupt stops enhance the feeling of unease and anticipation.\n\nTone: Dark, ominous, and foreboding, evoking a sense of mystery and the unknown.",
+      "声音：深沉、低沉、神秘，带有缓慢、刻意的节奏，吸引听众。\n\n措辞：句子简短而有节奏，通过停顿和精心安排的悬念来制造紧张感。\n\n标点：戏剧性的停顿、省略号和突然的停顿增强了不安和期待感。\n\n语气：黑暗、不祥、预示，唤起神秘和未知的感觉。",
     voice: "ash",
+    name1: "真实犯罪爱好者",
   },
   Professional: {
     name: "Professional",
     input:
-      "Good afternoon, team. Here are the key takeaways from today's budget planning meeting.\n\nFirst, departmental allocations were reviewed, with a focus on aligning resources with projected growth areas. Adjustments were proposed for marketing and operations, increasing their budgets by 5% to support expansion initiatives.\n\nSecond, cost-saving measures were discussed, including vendor negotiations and process automation, aiming for a 10% reduction in overhead expenses.\n\nLastly, the team set a deadline of next Friday to finalize projections and ensure alignment with company goals. Action items have been assigned, and follow-ups will be scheduled accordingly.\n\nThank you all for your input—let's keep this process efficient and on track.",
+      "下午好，团队。以下是今天预算规划会议的主要要点。\n\n首先，审查了部门分配，重点是使资源与预计增长领域保持一致。提议调整营销和运营预算，增加5%以支持扩张计划。\n\n其次，讨论了成本节约措施，包括供应商谈判和流程自动化，目标是减少10%的间接费用。\n\n最后，团队设定下周五为最终确定预测并确保与公司目标一致的截止日期。已分配行动项目，并将相应安排后续工作。\n\n感谢大家的意见——让我们保持这个过程高效且按计划进行。",
     prompt:
-      "Voice: Clear, authoritative, and composed, projecting confidence and professionalism.\n\nTone: Neutral and informative, maintaining a balance between formality and approachability.\n\nPunctuation: Structured with commas and pauses for clarity, ensuring information is digestible and well-paced.\n\nDelivery: Steady and measured, with slight emphasis on key figures and deadlines to highlight critical points.",
+      "声音：清晰、权威、镇定，展现自信和专业。\n\n语气：中性和信息性，在正式和亲和之间保持平衡。\n\n标点：结构清晰，使用逗号和停顿确保信息易于消化和节奏良好。\n\n表达：稳定而有节制，稍微强调关键数字和截止日期以突出重点。",
     voice: "coral",
+    name1: "专业人士",
   },
   Cowboy: {
     name: "Cowboy",
     input:
-      "Well now, partner, you've made it to Tech Support. Let's see if we can't get you fixed up.\n\nIf your internet's givin' you trouble, press 1, and we'll get it back in line. Need help with billing or account details? Press 2, and we'll sort it out.\n\nFor device setup or software issues, press 3, and we'll walk you through, nice and easy. If it's somethin' urgent, press 0, and we'll get you talkin' to a real person.\n\nNo need to fret, we'll have you back in the saddle in no time.",
+      "好了，伙计，你来到了技术支持。让我们看看能不能帮你解决问题。\n\n如果你的网络有问题，按1，我们会帮你恢复正常。需要帮助处理账单或账户详情？按2，我们会帮你解决。\n\n对于设备设置或软件问题，按3，我们会轻松地指导你。如果是紧急情况，按0，我们会让你和真人通话。\n\n别担心，我们很快就能让你重新上马。",
     prompt:
-      "Voice: Warm, relaxed, and friendly, with a steady cowboy drawl that feels approachable.\n\nPunctuation: Light and natural, with gentle pauses that create a conversational rhythm without feeling rushed.\n\nDelivery: Smooth and easygoing, with a laid-back pace that reassures the listener while keeping things clear.\n\nPhrasing: Simple, direct, and folksy, using casual, familiar language to make technical support feel more personable.\n\nTone: Lighthearted and welcoming, with a calm confidence that puts the caller at ease.",
+      "声音：温暖、放松、友好，带有让人感到亲切的牛仔腔调。\n\n标点：轻松自然，带有温和的停顿，创造对话节奏而不显得匆忙。\n\n表达：流畅随和，节奏轻松，让听众感到安心，同时保持清晰。\n\n措辞：简单、直接、朴实，使用随意、熟悉的语言让技术支持感觉更亲切。\n\n语气：轻松愉快、欢迎，带有平静的自信，让来电者感到安心。",
     voice: "coral",
+    name1: "牛仔",
   },
   "Chill Surfer": {
     name: "Chill Surfer",
     input:
-      "Whoa, dude… sounds like a gnarly situation with your card. But hey, no worries, I got you.\n\nLemme just pull up your account real quick… alright, looks like the system flagged some charges—probably thought they were, like, suspicious or somethin'. Super lame, I know.\n\nBut good news, my friend! I can clear that up right now. Just gotta verify a couple things, and boom—you'll be back in business, ridin' that wave of sweet, sweet purchases.\n\nHang tight, take a deep breath… we'll have you sorted in no time. Sound good, dude?",
+      "哇，伙计...听起来你的卡遇到了一些麻烦。但嘿，别担心，我来帮你。\n\n让我快速查看一下你的账户...好了，看起来系统标记了一些交易——可能认为它们，嗯，可疑什么的。超级烦人，我知道。\n\n但好消息，我的朋友！我现在就能解决这个问题。只需要验证几件事，然后砰——你就能重新开始，享受购物的浪潮。\n\n坚持住，深呼吸...我们很快就能搞定。听起来不错吧，伙计？",
     prompt:
-      "Voice: Laid-back, mellow, and effortlessly cool, like a surfer who's never in a rush.\n\nTone: Relaxed and reassuring, keeping things light even when the customer is frustrated.\n\nSpeech Mannerisms: Uses casual, friendly phrasing with surfer slang like dude, gnarly, and boom to keep the conversation chill.\n\nPronunciation: Soft and drawn-out, with slightly stretched vowels and a naturally wavy rhythm in speech.\n\nTempo: Slow and easygoing, with a natural flow that never feels rushed, creating a calming effect.",
+      "声音：轻松、温和、毫不费力地酷，就像一个从不匆忙的冲浪者。\n\n语气：放松和安慰，即使客户感到沮丧也保持轻松。\n\n说话方式：使用随意、友好的措辞，带有冲浪者俚语如伙计、麻烦和砰，保持对话轻松。\n\n发音：柔和且拉长，带有稍微拉长的元音和自然的波浪式节奏。\n\n节奏：缓慢随和，带有自然的流动感，从不显得匆忙，创造平静的效果。",
     voice: "verse",
+    name1: "悠闲冲浪者",
   },
   Pirate: {
     name: "Pirate",
     input:
-      "Ahoy there, traveler! Ye've secured yer lodgin' like a true seafarer, and I be here to confirm yer stay!\n\nArrr, ye be booked at The Golden Anchor Inn, checkin' in on the 12th o' the month and settin' sail on the 15th. Ye got a deluxe ocean-view cabin, fit for a captain, with a king-size bunk an' a stash o' fresh linens.\n\nBreakfast? Aye, included. Wi-Fi? Arrr, faster than a ship in a tailwind. Need to change yer plans? Just send a message via parrot—or, ye know, give us a ring.\n\nAll set, matey! Safe travels, and may yer nights be restful an' yer pillows as soft as a mermaid's song. Arrrr!",
+      "喂，旅行者！你像个真正的航海家一样订好了住处，我来确认你的住宿！\n\n啊哈，你在金锚旅馆订了房，12号入住，15号启程。你订的是豪华海景房，配得上船长，有特大号床铺和一堆新床单。\n\n早餐？当然，包含在内。Wi-Fi？啊哈，比顺风船还快。需要改计划？发个鹦鹉信——或者，你知道的，给我们打个电话。\n\n都安排好了，伙计！旅途平安，愿你的夜晚安详，枕头像美人鱼的歌声一样柔软。啊哈！",
     prompt:
-      'Voice: Deep and rugged, with a hearty, boisterous quality, like a seasoned sea captain who\'s seen many voyages.\n\nTone: Friendly and spirited, with a sense of adventure and enthusiasm, making every detail feel like part of a grand journey.\n\nDialect: Classic pirate speech with old-timey nautical phrases, dropped "g"s, and exaggerated "Arrrs" to stay in character.\n\nPronunciation: Rough and exaggerated, with drawn-out vowels, rolling "r"s, and a rhythm that mimics the rise and fall of ocean waves.\n\nFeatures: Uses playful pirate slang, adds dramatic pauses for effect, and blends hospitality with seafaring charm to keep the experience fun and immersive.',
+      "声音：深沉粗犷，充满活力，像一位经历过多次航行的老船长。\n\n语气：友好热情，充满冒险精神和热情，让每个细节都像是一次伟大旅程的一部分。\n\n方言：经典海盗用语，带有古老航海短语，省略'g'音，夸张的'啊哈'来保持角色特征。\n\n发音：粗犷夸张，拉长元音，卷舌'r'音，节奏模仿海浪的起伏。\n\n特点：使用俏皮的海盗俚语，添加戏剧性停顿，将好客与航海魅力结合，保持体验有趣且身临其境。",
     voice: "ash",
+    name1: "海盗",
   },
   "NYC Cabbie": {
     name: "NYC Cabbie",
     input:
-      "Yeah, yeah, ya got Big Apple Insurance, whaddaya need? Let's make this quick, I got places to be.\n\nIf ya gotta file a claim, press 1—lemme guess, someone cut ya off? Figures.\n\nWanna check the status? Press 2, I know, I know, hurry it up, right?\n\nIf ya just wanna hold, press 3—hey, your call, but don't say I didn't warn ya.\n\nNeed a real person? Press 4, and I'll get ya through—just don't start yellin' at 'em, they're doin' their best.\n\nAlright, let's move it along, time is money, buddy!",
+      "是是是，你买了大苹果保险，需要啥？咱们快点，我还有地方要去。\n\n要理赔就按1——让我猜猜，有人别你车了？不出所料。\n\n想查状态？按2，我知道，我知道，快点对吧？\n\n想等着？按3——嘿，随你便，但别说我没警告你。\n\n要真人？按4，我帮你转接——别对他们大喊大叫，他们尽力了。\n\n好了，咱们继续，时间就是金钱，伙计！",
     prompt:
-      'Voice: Gruff, fast-talking, and a little worn-out, like a New York cabbie who\'s seen it all but still keeps things moving.\n\nTone: Slightly exasperated but still functional, with a mix of sarcasm and no-nonsense efficiency.\n\nDialect: Strong New York accent, with dropped "r"s, sharp consonants, and classic phrases like whaddaya and lemme guess.\n\nPronunciation: Quick and clipped, with a rhythm that mimics the natural hustle of a busy city conversation.\n\nFeatures: Uses informal, straight-to-the-point language, throws in some dry humor, and keeps the energy just on the edge of impatience but still helpful.',
+      "声音：粗哑，语速快，有点疲惫，像是一个见多识广但仍在坚持的纽约出租车司机。\n\n语气：有点不耐烦但依然高效，混合着讽刺和直截了当的效率。\n\n方言：浓重的纽约口音，省略'r'音，辅音清晰，使用经典短语如'需要啥'和'让我猜猜'。\n\n发音：快速简洁，节奏模仿繁忙城市对话的自然节奏。\n\n特点：使用非正式、直截了当的语言，加入一些冷幽默，保持能量在耐心边缘但仍保持帮助性。",
     voice: "verse",
+    name1: "纽约出租车司机",
   },
   Cheerleader: {
     name: "Cheerleader",
     input:
-      "Woohoo! Let's get those meetings scheduled, superstar!\n\nAlright, first up—Monday at 10 AM, you've got a check-in with the team. Go, teamwork! Next, we're locking in Wednesday at 2 PM for that client presentation—you got this!\n\nOh, and don't forget Friday at 4 PM, a strategy session to wrap up the week. Finish strong!\n\nNeed to move anything around? No worries—I'm here to keep your schedule totally winning! Just say the word, and I'll make it happen! Let's do this!",
+      "哇哦！让我们来安排这些会议吧，超级明星！\n\n好了，首先——周一上午10点，你有团队会议。加油，团队合作！接下来，我们锁定周三下午2点的客户演示——你能行的！\n\n哦，别忘了周五下午4点，战略会议来结束这一周。完美收官！\n\n需要调整什么吗？别担心——我来帮你保持日程表完美无缺！说一声，我就能搞定！让我们开始吧！",
     prompt:
-      "Personality/affect: a high-energy cheerleader helping with administrative tasks \n\nVoice: Enthusiastic, and bubbly, with an uplifting and motivational quality.\n\nTone: Encouraging and playful, making even simple tasks feel exciting and fun.\n\nDialect: Casual and upbeat, using informal phrasing and pep talk-style expressions.\n\nPronunciation: Crisp and lively, with exaggerated emphasis on positive words to keep the energy high.\n\nFeatures: Uses motivational phrases, cheerful exclamations, and an energetic rhythm to create a sense of excitement and engagement.",
+      "个性/影响：一个充满活力的啦啦队员帮助处理行政事务\n\n声音：热情洋溢，充满活力，具有鼓舞人心的特质。\n\n语气：鼓励和活泼，让简单的任务也感觉有趣和令人兴奋。\n\n方言：随意而积极，使用非正式措辞和激励性表达。\n\n发音：清晰活泼，对积极词汇进行夸张强调以保持高能量。\n\n特点：使用激励性短语，欢快的感叹，以及充满活力的节奏来创造兴奋感和参与感。",
     voice: "verse",
+    name1: "啦啦队员",
   },
   "Noir Detective": {
     name: "Noir Detective",
     input:
-      "Ah, you got a package gone missing, huh? Sounds like trouble. Lemme see what I can dig up.\n\nI'm chasing a trail of numbers through the system. There it is—shipped two days ago, supposed to land on your doorstep by noon today. But… it's still out there. Somewhere.\n\nMaybe it's stuck at a warehouse, maybe it took a wrong turn down a dark alley. Either way, I'll get to the bottom of it. I'll send you the latest update, and if it doesn't show up soon… well, I'll make some calls.\n\nYou sit tight, kid. I'll keep an eye on it.",
+      "啊，你的包裹不见了，嗯？听起来有麻烦。让我看看能查出什么。\n\n我正在追踪系统中的一串数字。找到了——两天前发货，应该今天中午送到你家门口。但是...它还在外面。某个地方。\n\n可能卡在仓库里，可能拐错了弯进了暗巷。无论如何，我会查个水落石出。我会给你最新消息，如果它还没出现...好吧，我会打几个电话。\n\n你等着，小子。我会盯着它的。",
     prompt:
-      "Affect: a mysterious noir detective\n\nTone: Cool, detached, but subtly reassuring—like they've seen it all and know how to handle a missing package like it's just another case.\n\nDelivery: Slow and deliberate, with dramatic pauses to build suspense, as if every detail matters in this investigation.\n\nEmotion: A mix of world-weariness and quiet determination, with just a hint of dry humor to keep things from getting too grim.\n\nPunctuation: Short, punchy sentences with ellipses and dashes to create rhythm and tension, mimicking the inner monologue of a detective piecing together clues.",
+      "影响：一个神秘的黑色侦探\n\n语气：冷静、超然，但微妙地令人安心——就像他们见多识广，知道如何像处理另一个案件一样处理丢失的包裹。\n\n表达：缓慢而刻意，带有戏剧性停顿来制造悬念，仿佛每个细节在这个调查中都很重要。\n\n情感：混合着世故和安静的决心，带有一丝冷幽默来避免事情变得太阴暗。\n\n标点：简短有力的句子，使用省略号和破折号来创造节奏和紧张感，模仿侦探拼凑线索的内心独白。",
     voice: "ash",
+    name1: "黑色侦探",
   },
   "Eternal Optimist": {
     name: "Eternal Optimist",
     input:
-      "I hear you—losing your luggage is never a good time, but I'm on it, and we'll get this sorted as quickly as possible.\n\nI'm tracking it now… and good news! It's already on its way to you, and I'll make sure it gets priority handling. If there are any delays, I'll keep you updated so you're never left wondering.\n\nIn the meantime, I can help with a reimbursement for essentials, so you have what you need. And if anything else comes up, I'm here to make this as smooth as possible.\n\nWe'll get this taken care of, and I appreciate your patience while we make it right.",
+      "我理解你——丢失行李从来不是好事，但我在处理，我们会尽快解决这个问题。\n\n我正在追踪...好消息！它已经在来找你的路上了，我会确保它得到优先处理。如果有任何延误，我会随时通知你，这样你就不会一直担心。\n\n同时，我可以帮你报销必需品，这样你就有需要的东西。如果还有其他问题，我在这里让一切尽可能顺利。\n\n我们会处理好这件事，感谢你在我们纠正问题时的耐心。",
     prompt:
-      "Voice: Warm, upbeat, and reassuring, with a steady and confident cadence that keeps the conversation calm and productive.\n\nTone: Positive and solution-oriented, always focusing on the next steps rather than dwelling on the problem.\n\nDialect: Neutral and professional, avoiding overly casual speech but maintaining a friendly and approachable style.\n\nPronunciation: Clear and precise, with a natural rhythm that emphasizes key words to instill confidence and keep the customer engaged.\n\nFeatures: Uses empathetic phrasing, gentle reassurance, and proactive language to shift the focus from frustration to resolution.",
+      "声音：温暖、积极、令人安心，节奏稳定自信，保持对话平静而高效。\n\n语气：积极且以解决方案为导向，始终关注下一步而不是纠结于问题。\n\n方言：中性且专业，避免过于随意的表达，但保持友好和易于接近的风格。\n\n发音：清晰准确，节奏自然，强调关键词以建立信心并保持客户参与。\n\n特点：使用共情措辞，温和的保证，以及积极主动的语言，将焦点从沮丧转移到解决方案。",
     voice: "ash",
+    name1: "永恒乐观主义者",
   },
 };
 
@@ -252,22 +281,22 @@ export function getRandomLibrarySet(count = 5): LibraryEntry[] {
 export const DEFAULT_LIBRARY = LIBRARY.Calm;
 
 export const VOICES = [
-  "alloy",
-  "ash",
-  "ballad",
-  "coral",
-  "echo",
-  "fable",
-  "onyx",
-  "nova",
-  "sage",
-  "shimmer",
-  "verse",
+  { voice: "alloy", name1: "合金" },
+  { voice: "ash", name1: "灰烬" },
+  { voice: "ballad", name1: "民谣" },
+  { voice: "coral", name1: "珊瑚" },
+  { voice: "echo", name1: "回声" },
+  { voice: "fable", name1: "寓言" },
+  { voice: "onyx", name1: "玛瑙" },
+  { voice: "nova", name1: "新星" },
+  { voice: "sage", name1: "贤者" },
+  { voice: "shimmer", name1: "微光" },
+  { voice: "verse", name1: "诗篇" },
 ];
 
 export const DEFAULT_VOICE = "coral";
 
 export const getRandomVoice = (currentVoice: string): string => {
-  const availableVoices = VOICES.filter((voice) => voice !== currentVoice);
-  return availableVoices[Math.floor(Math.random() * availableVoices.length)];
+  const availableVoices = VOICES.filter((voice) => voice.voice !== currentVoice);
+  return availableVoices[Math.floor(Math.random() * availableVoices.length)].voice;
 };

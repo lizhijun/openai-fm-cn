@@ -50,7 +50,7 @@ export const ShareButton = () => {
       >
         <span className="flex gap-2 items-center justify-center">
           <Share />
-          <span className="uppercase hidden md:inline pr-3">Share</span>
+          <span className="uppercase hidden md:inline pr-3">分享</span>
         </span>
       </Button>
       <ShareDialog shareUrl={shareUrl} open={open} onOpenChange={setOpen} />
